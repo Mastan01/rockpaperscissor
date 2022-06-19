@@ -7,8 +7,6 @@ import random
 my_dict={'R':"Rock",'P':"Paper",'S':"Scissors"}
 user_count=0
 comp_count=0
-
-#INPUT;
 games=int(input("\nEnter the number of games you want to play: "))
 
 while(comp_count+user_count<games):
