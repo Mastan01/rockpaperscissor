@@ -18,12 +18,6 @@ while(comp_count+user_count<games):
 
 	user_input=input("\nUser's Input: ")[0]
 	user_input=user_input.upper()
-	#The [0] after the input() will assign the first charcter of input to the variable;
-	#Hence, the user can enter anything, anyway; 
-	#Example: The user can enter Rock or rock or r or R or ro or any such thing which represents Rock;
-	#It will always take input as a R
-	#Thereby, increasing the user input window;
-
 	for i in my_dict.keys():
 		if(user_input==i):		#If the entered input is confined to Rock, Paper or Scissors;
 			flag=1
